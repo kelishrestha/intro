@@ -12,13 +12,13 @@
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
-    <link href="css/impress-demo.css" rel="stylesheet" />
-    <link href="css/impress-common.css" rel="stylesheet" />
+    <link href="public/css/impress-demo.css" rel="stylesheet" />
+    <link href="public/css/impress-common.css" rel="stylesheet" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon-16x16.png">
+    <link rel="manifest" href="public/images/site.webmanifest">
 </head>
 
 <body class="impress-not-supported">
@@ -52,7 +52,7 @@
     You can also control the perspective with `data-perspective="500"` giving it a number of pixels.
     It defaults to 1000. You can set it to 0 if you don't want any 3D effects.
     If you are willing to change this value make sure you understand how CSS perspective works:
-    https://developer.mozilla.org/en/CSS/perspective
+    https://developer.mozilla.org/en/public/CSS/perspective
 
     Plugins:
 
@@ -244,7 +244,7 @@
         * `data-scale` - defines the scale of step element; default value is 1
 
         These values are used by impress.js in CSS transformation functions, so for more information consult
-        CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
+        CSS transfrom docs: https://developer.mozilla.org/en/public/CSS/transform
 
     -->
 
@@ -263,7 +263,7 @@ if ("ontouchstart" in document.documentElement) {
 }
 </script>
 
-<script src="js/impress.js"></script>
+<script src="public/js/impress.js"></script>
 <script>impress().init();</script>
 
 </body>
